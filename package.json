@@ -2,10 +2,10 @@
   "name": "prarambh-backend",
   "version": "1.0.0",
   "private": true,
-  "scripts": {
-    "dev": "nodemon backend/server.js",
-    "start": "node backend/server.js",
-    "create:admin": "node backend/scripts/createAdmin.js"
+   "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "create:admin": "node scripts/createAdmin.js"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
